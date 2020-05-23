@@ -16,6 +16,8 @@ getQuery( query:string){
   const url= `https://api.spotify.com/v1/${query}`;
 
   const headers=new HttpHeaders({
+    
+    ////Reemplazar token generado cada una hora!!!
     'Authorization': 'Bearer BQDG0a1KATG6ZvRIyJ-C2ELbjiJ6VrvPyeK1K7iZjmOfY_IOJVKCkKKj1gPpYMInn8DNSVl4ewO6e1FJNtdRHbQ2t8aRW1X3SkpmPHcyhU3XIxQDL5Q2vTNHYlM5ApITQip4up2WiJC32W0Stk3UOc5qfRYfKCbYMS0'
   });
 
