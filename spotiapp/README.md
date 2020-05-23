@@ -1,5 +1,11 @@
 # Spotiapp
 
+Aplicacion web que consume la Api de Spotify, en ella se muestran los ultimos lanzamientos, un buscador de artistas y su propio perfil con sus canciones y el reproductor.
+
+# Como usar
+
+Para consumir la Api de Spotify y funcione correctamente deberás generar el token en el siguiente link (https://developer.spotify.com/console/get-new-releases/) y reemplazarlo cada una hora en (spotify.service.ts) dentro del editor de codigo en la seccion donde se encuentra comentado "reemplazar token generado cada una hora"
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 ## Development server
